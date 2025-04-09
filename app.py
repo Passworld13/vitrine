@@ -6,7 +6,7 @@ app.register_blueprint(admin_bp)
 
 @app.route("/")
 def index():
-    return "Bienvenue sur l'API Passworld 🧠🔐"
+    return "Welcome to API Passworld v2 🧠🔐"
 
 if __name__ == "__main__":
     app.run(debug=True)
